@@ -91,6 +91,59 @@ body{
     height: 100vh;
     background: url(../img/intro-bg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 263px;
+}
+
+.intro__title{
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+
+.intro__subtitle{
+    max-width: 546px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 59px;
+}
+
+.search-form__info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-form__field{
+    width: 297px;
+    background: transparent url(../img/svg/oval.svg) no-repeat left top;
+    background-size: 20px;
+    border: 0px;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.search-form__submit{
+    left: 62.92%;
+    right: 25.21%;
+    bottom: 89.71%;
+    background: #1B7DFF;
+    background-size: 171px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
 }
 
 /* Intro styles end */
